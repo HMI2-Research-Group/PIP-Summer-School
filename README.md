@@ -1,7 +1,9 @@
 # Installation
 ## softwares to be installed ahead
-- Anaconda
-- VS Code
+- [Anaconda](https://www.anaconda.com/download)
+- [VS Code](https://code.visualstudio.com/)
+
+Tip: Always use VS Code. It's the best IDE and please try to prove me wrong. 
 
 both of them are very important. If any issues please contact the instructor. 
 
