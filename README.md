@@ -5,10 +5,10 @@
 
 Tip: Always use VS Code. It's the best IDE and please try to prove me wrong. 
 
-both of them are very important. If any issues please contact the instructor. 
+Both of the softwares are very important. If any issues installing them please contact the instructor. 
 
 
-Assuming you have windows or linux laptop blow are the commands to be executed in an anaconda prompt shell. The anaconda prompt shell varies upon distributions. For windows search ```anaconda shell```. For linux you have to activate the anaconda environment and when you activate it it should give output a *non empty output* for
+Assuming you have windows or linux laptop below are the commands to be executed in an anaconda prompt shell. The anaconda prompt shell varies upon distributions. For windows search ```anaconda shell```. For linux you have to activate the anaconda environment and when you activate it it should give output a *non empty output* for
 
 ```bash
 which conda
@@ -27,5 +27,3 @@ conda install -y -c conda-forge seaborn
 
 Quick Tip: The python version is 3.8 so that you can use walrus operator. You are welcome!
 
-## Extra Tips
-Figure out how to replicate the environment with Poetry. Should take 10 minutes. 
