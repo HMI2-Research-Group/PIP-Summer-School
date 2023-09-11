@@ -25,5 +25,7 @@ conda install -y -c conda-forge matplotlib
 conda install -y -c conda-forge seaborn
 ```
 
+Quick Tip: The python version is 3.8 so that you can use walrus operator. You are welcome!
+
 ## Extra Tips
 Figure out how to replicate the environment with Poetry. Should take 10 minutes. 
