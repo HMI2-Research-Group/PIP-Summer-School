@@ -13,7 +13,7 @@ Assuming you have windows or linux laptop blow are the commands to be executed i
 ```bash
 which conda
 ```
-
+and then please install by executing everything line by line:
 ```bash
 conda create -n pip_summer_school -y -c conda-forge jupyterlab=3 "ipykernel>=6" xeus-python python=3.8
 conda activate pip_summer_school
