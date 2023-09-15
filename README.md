@@ -3,7 +3,7 @@
 - [Anaconda](https://www.anaconda.com/download)
 - [VS Code](https://code.visualstudio.com/)
 
-Tip: Always use VS Code. It's the best IDE and please try to prove me wrong. 
+Tip: VS Code has the best IDE.
 
 Both of the softwares are very important. If any issues installing them please contact the instructor. 
 
@@ -25,5 +25,5 @@ conda install -y -c conda-forge matplotlib
 conda install -y -c conda-forge seaborn
 ```
 
-Quick Tip: The python version is 3.8 so that you can use walrus operator. You are welcome!
+Quick Tip: The python version is 3.8 so that you can use walrus operator. 
 
