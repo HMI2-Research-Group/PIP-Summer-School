@@ -27,6 +27,7 @@ conda install -y -c conda-forge seaborn
 
 Quick Tip: The Python version is 3.8 so you can use the walrus operator. 
 
-The workshop will use YAHBOON IMU sensor. Please refer to https://github.com/YahboomTechnology/10-axis_IMU_Module for installing the software
- https://drive.google.com/drive/u/1/folders/1XkIL0RvOkqZD_GbHdTRHtLtMkgXIC3lu
+The workshop will use the YAHBOOM IMU sensor. Please refer to
+ - [IMU sensor](https://github.com/YahboomTechnology/10-axis_IMU_Module for installing the software)
+ 
  - [Annex Download](https://drive.google.com/drive/u/1/folders/1XkIL0RvOkqZD_GbHdTRHtLtMkgXIC3lu)
