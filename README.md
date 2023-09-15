@@ -5,10 +5,10 @@
 
 Tip: VS Code has the best IDE.
 
-Both of the softwares are very important. If any issues installing them please contact the instructor. 
+Both of the software are very important. If any issues installing them please contact the instructor. 
 
 
-Assuming you have windows or linux laptop below are the commands to be executed in an anaconda prompt shell. The anaconda prompt shell varies upon distributions. For windows search ```anaconda shell```. For linux you have to activate the anaconda environment and when you activate it it should give output a *non empty output* for
+Assuming you have a Windows or Linux laptop below are the commands to be executed in an anaconda prompt shell. The anaconda prompt shell varies upon distribution. For Windows search ```anaconda shell```. For Linux, you have to activate the anaconda environment and when you activate it should give the output a *non empty output* for
 
 ```bash
 which conda
@@ -25,5 +25,5 @@ conda install -y -c conda-forge matplotlib
 conda install -y -c conda-forge seaborn
 ```
 
-Quick Tip: The python version is 3.8 so that you can use walrus operator. 
+Quick Tip: The Python version is 3.8 so you can use the walrus operator. 
 
