@@ -23,6 +23,7 @@ conda install -y -c conda-forge scikit-learn
 conda install -y -c conda-forge statsmodels
 conda install -y -c conda-forge matplotlib
 conda install -y -c conda-forge seaborn
+conda install -c conda-forge shap
 ```
 
 Quick Tip: The Python version is 3.8 so you can use the walrus operator. 
