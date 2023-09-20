@@ -1,5 +1,12 @@
 import shutil
 import os
+import pandas as pd
+
+
+def get_angle_df(df):
+    # Only leave columns with headers Time(s), AngleX(deg), AngleY(deg), AngleZ(deg)
+    df = df[["Time(s)", "AngleX(deg)", "AngleY(deg)", "AngleZ(deg)"]]
+    return df
 
 
 def main():
@@ -17,6 +24,16 @@ def main():
         os.mkdir("HeadData/Down")
         os.mkdir("HeadData/Right")
         os.mkdir("HeadData/Left")
+
+    # Read all txt file from YahboomHeadData/Up folder
+    # and write to HeadData/Up folder
+    for direction in ["Up", "Down", "Right", "Left"]:
+        trial_number = 1
+        for file in os.listdir("YahboomHeadData/Up"):
+            if file.endswith(".txt"):
+                df = get_angle_df(pd.read_csv(f"YahboomHeadData/{direction}/Gyro/" + file, sep="\t", skiprows=1))
+                df.to_csv(f"HeadData/{direction}/Gyro/" + f"Trial{trial_number}.csv", index=False, header=False)
+                trial_number += 1
 
 
 if __name__ == "__main__":
