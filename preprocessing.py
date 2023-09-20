@@ -17,6 +17,10 @@ def main():
         os.mkdir("HeadData/Down")
         os.mkdir("HeadData/Right")
         os.mkdir("HeadData/Left")
+        os.mkdir("HeadData/Up/gyro")
+        os.mkdir("HeadData/Down/gyro")
+        os.mkdir("HeadData/Right/gyro")
+        os.mkdir("HeadData/Left/gyro")
     else:
         shutil.rmtree("HeadData")
         os.mkdir("HeadData")
@@ -24,15 +28,19 @@ def main():
         os.mkdir("HeadData/Down")
         os.mkdir("HeadData/Right")
         os.mkdir("HeadData/Left")
+        os.mkdir("HeadData/Up/gyro")
+        os.mkdir("HeadData/Down/gyro")
+        os.mkdir("HeadData/Right/gyro")
+        os.mkdir("HeadData/Left/gyro")
 
     # Read all txt file from YahboomHeadData/Up folder
     # and write to HeadData/Up folder
     for direction in ["Up", "Down", "Right", "Left"]:
         trial_number = 1
-        for file in os.listdir("YahboomHeadData/Up"):
+        for file in os.listdir(f"YahboomHeadData/{direction}/Gyro"):
             if file.endswith(".txt"):
                 df = get_angle_df(pd.read_csv(f"YahboomHeadData/{direction}/Gyro/" + file, sep="\t", skiprows=1))
-                df.to_csv(f"HeadData/{direction}/Gyro/" + f"Trial{trial_number}.csv", index=False, header=False)
+                df.to_csv(f"HeadData/{direction}/gyro/" + f"trial{trial_number}.csv", index=False, header=False)
                 trial_number += 1
 
 
