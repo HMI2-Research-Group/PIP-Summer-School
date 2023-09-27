@@ -26,6 +26,12 @@ conda install -y -c conda-forge seaborn
 conda install -c conda-forge shap
 ```
 
+To activate the newly created environment, please execute the following command:
+```bash
+conda activate pip_summer_school
+```
+The environment needs to be activated before you install any new packages or use the virtual environment.
+
 Quick Tip: The Python version is 3.8 so you can use the walrus operator. 
 
 The workshop will use the YAHBOOM IMU sensor. Please refer to
